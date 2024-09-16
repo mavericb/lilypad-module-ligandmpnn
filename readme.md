@@ -67,10 +67,10 @@ rm -rf /home/lily/.bacalhau
 4. Update template of lilypad and run on local test:
    - Update the Image field in the template:
      ```json
-     "Image": "mavericb/ollama:llama3-8b-lilypad-v20240904173555"
+     "Image": "mavericb/ligandmpnn:lilypad-v20240916205119"
      ```
    - Run the test:
      ```bash
-     ./stack run --network dev github.com/mavericb/lilypad-module-test:36fc663dde73cbc536e71020537d0e1cf49b164d -i Input=moo
+     ./stack run --network dev github.com/mavericb/lilypad-module-ligandmpnn:f64b83b9874f29fe00c70d8da4edb1a8b629f015 -i Input=moo
      ```
 
