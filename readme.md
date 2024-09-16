@@ -50,7 +50,7 @@ rm -rf /home/lily/.bacalhau
 
 1. Test in Docker locally:
    ```bash
-   docker build --progress=plain -f Dockerfile -t test .
+   docker build --progress=plain -f Dockerfile -t ligandmpnn .
    docker run --log-driver json-file --log-opt max-size=10m test --network none
    ```
 

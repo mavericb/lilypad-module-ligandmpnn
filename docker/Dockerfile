@@ -10,7 +10,7 @@ WORKDIR /app
 
 # Install system dependencies
 RUN apt-get update -y && \
-    apt-get install -y curl python3 python3-pip git libgl1-mesa-glx libglib2.0-0 && \
+    apt-get install -y curl python3 python3-pip git libgl1-mesa-glx libglib2.0-0 wget && \
     rm -rf /var/lib/apt/lists/*
 
 # Clone LigandMPNN repository
