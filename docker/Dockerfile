@@ -26,7 +26,6 @@ RUN bash get_model_params.sh "./model_params"
 RUN pip3 install --no-cache-dir -r requirements.txt
 
 # Copy application files
-COPY main.py /app/LigandMPNN/main.py
 COPY start.sh /app/LigandMPNN/start.sh
 
 # Make start.sh executable
