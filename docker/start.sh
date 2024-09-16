@@ -17,15 +17,8 @@ fi
 
 python3 run.py --seed 111 --pdb_path "./inputs/1BC8.pdb" --out_folder "./outputs/default"
 
-echo "Contenuto della cartella outputs:"
-ls -l ./outputs
-
-echo "Contenuto della cartella outputs/default:"
-ls -l ./outputs/default
-
 echo "Contenuto della cartella outputs/default/seqs:"
 ls -l ./outputs/default/seqs
 
-## Print the results
 echo "Printing results:"
 cat ./outputs/default/seqs/1BC8.fa
