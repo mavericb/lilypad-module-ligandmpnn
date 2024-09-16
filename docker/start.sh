@@ -27,5 +27,5 @@ echo "Contenuto della cartella outputs/default/seqs:"
 ls -l ./outputs/default/seqs
 
 ## Print the results
-#echo "Printing results:"
-#cat ./outputs/default/seqs_.csv
+echo "Printing results:"
+cat ./outputs/default/seqs/1BC8.fa
