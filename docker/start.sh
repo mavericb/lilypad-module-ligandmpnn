@@ -23,6 +23,9 @@ ls -l ./outputs
 echo "Contenuto della cartella outputs/default:"
 ls -l ./outputs/default
 
+echo "Contenuto della cartella outputs/default/seqs:"
+ls -l ./outputs/default/seqs
+
 ## Print the results
 #echo "Printing results:"
-#cat ./outputs/default/seqs_scores.csv
+#cat ./outputs/default/seqs_.csv
