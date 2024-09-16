@@ -61,7 +61,7 @@ rm -rf /home/lily/.bacalhau
 
 3. Test the remote image locally:
    ```bash
-   docker run mavericb/ollama:llama3-8b-lilypad-v20240904173555 --network none
+   docker run mavericb/ligandmpnn:lilypad-v20240916205119 --network none
    ```
 
 4. Update template of lilypad and run on local test:
