@@ -20,6 +20,9 @@ python3 run.py --seed 111 --pdb_path "./inputs/1BC8.pdb" --out_folder "./outputs
 echo "Contenuto della cartella outputs:"
 ls -l ./outputs
 
+echo "Contenuto della cartella outputs/default:"
+ls -l ./outputs/default
+
 ## Print the results
 #echo "Printing results:"
 #cat ./outputs/default/seqs_scores.csv
